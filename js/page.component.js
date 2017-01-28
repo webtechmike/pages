@@ -6,7 +6,7 @@
     function controller(){
         var model = this;
 
-        console.log('This', this);
+        model.text = "Got something to say?";
     }
 
 
